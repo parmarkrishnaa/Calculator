@@ -54,19 +54,19 @@ int main()
         switch (num)
         {
         case 1:
-            cout << "Addition of " << num1 << " and " << num2 << " is: " << add(num1, num2) << endl;
+            cout << "Addition of " << num1 << " and " << num2 << " is " << add(num1, num2) << "." << endl;
             break;
         case 2:
-            cout << "Subtraction of " << num1 << " and " << num2 << " is: " << sub(num1, num2) << endl;
+            cout << "Subtraction of " << num1 << " and " << num2 << " is " << sub(num1, num2) << "." << endl;
             break;
         case 3:
-            cout << "Multiplication of " << num1 << " and " << num2 << " is: " << mul(num1, num2) << endl;
+            cout << "Multiplication of " << num1 << " and " << num2 << " is " << mul(num1, num2) << "." << endl;
             break;
         case 4:
-            cout << "Division of " << num1 << " and " << num2 << " is: " << dvd(num1, num2) << endl;
+            cout << "Division of " << num1 << " and " << num2 << " is " << dvd(num1, num2) << "." << endl;
             break;
         case 5:
-            cout << "Modulo of " << num1 << " and " << num2 << " is: " << mod(num1, num2) << endl;
+            cout << "Modulo of " << num1 << " and " << num2 << " is " << mod(num1, num2) << "." << endl;
             break;
         case 0:
             cout << endl << "You are successfully exited!";
